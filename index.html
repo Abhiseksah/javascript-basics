@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>javascript</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        
+</head>
+<body>
+    
+        <div class="container" id="c">
+            <h2 style="text-align: center;">Challenge-1(your Age in days).</h2>
+            
+                <button class="btn btn-success" onclick="convert()">Click me</button>
+                <button  class="btn btn-danger" onclick="reset()">Reset</button>
+            
+            <div class="container">
+             <div id="flex-box-result" style="padding-top: 50px;"></div>
+            </div>
+            
+        </div>
+        
+        <div class="container" >
+            
+            <div id="d">
+                <h2 style="text-align: center;">Challenge-2(GIF generator)</h2>
+                <button class="btn btn-primary" style="align-item: center;" onclick="generate()">Generate</button>
+                    <div class="flex-container" id="flex-img">
+                        
+                    </div>
+            </div>   
+        </div>
+
+        <div class="container">
+            <div id="e">
+            <h2 style="text-align: center;">Challenge-3(Rock Paper Scissors)</h2>
+                <div id="flex-container">
+                    <img type="button" id="rock"onclick="rpsgame(this)" src="http://clipart-library.com/img/756983.gif" alt="">
+                    
+                    <img type="button" id="paper"onclick="rpsgame(this)" src="http://clipart-library.com/img/878069.png" alt="">
+                    <img type="button" id="scissor"onclick="rpsgame(this)" src="http://clipart-library.com/img/1927849.jpg" alt="">
+                    
+                    <div id='human'></div>
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="e">
+                <h2 style="text-align: center;">Challenge-4(Change the color of all button)</h2>
+                <div id="flex-container">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                          Change Colour
+                        </button>
+                        <div class="dropdown-menu" >
+                          <option class="dropdown-item" value="red" style="color: red;" href="#" onclick="buttonColorChange(this)">Red</option>
+                          <option class="dropdown-item" value="green" style="color: green;" href="#" onclick="buttonColorChange(this)">Green</option>
+                          <option class="dropdown-item" value="blue" style="color: blue;" href="#" onclick="buttonColorChange(this)">Blue</option>
+                          <option class="dropdown-item" value="random" style="color: grey;" href="#" onclick="buttonColorChange(this)">Random</option>
+                          <option value="reset"class="dropdown-item" style="color: solid black;" onclick="buttonColorChange(this)">Reset</option>
+                        </div>
+                      </div>
+                      
+                      <button class="btn btn-primary">Blue</button>
+                    
+                      <f><button class="btn btn-warning">Yellow</button></f>
+                      <f><button class="btn btn-danger">Red</button></f>
+                      <f><button class="btn btn-success">Green</button></f>
+                      <f><button class="btn btn-secondary">Grey</button></f>
+                      
+                      </div> 
+                </div>
+            </div>
+        </div>
+        
+       
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+    <script src='bday.js'></script>
+</body>
+</html>
